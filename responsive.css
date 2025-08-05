@@ -122,6 +122,7 @@
   }
 
   .about-label {
+    margin: 0 auto;
     margin-top: 150px;
     justify-content: center;
   }
@@ -146,7 +147,7 @@
   .about-label h2 br {
     display: none;
   }
-  
+
   .about-text {
     max-width: 100%;
     padding: 15px 5px 0 5px;
@@ -161,7 +162,7 @@
     font-size: 15px;
     line-height: 1.7;
   }
-  
+
   .love-image-background {
     height: 1150px;
   }
