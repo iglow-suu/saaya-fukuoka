@@ -1,0 +1,203 @@
+@media (max-width: 1024px) {
+  .Saaya-intro {
+    width: 50%;
+    top: 40%;
+    left: 15px;
+    transform: translate(0, -80%);
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .Saaya-intro h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .Saaya-intro p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -300px;
+    gap: 40px;
+  }
+
+  .about-label {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .about-label h2 {
+    color: transparent;
+    font-size: 52px;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .about-label h2::before {
+    content: "ABOUT ME";
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-label h2 br {
+    display: none;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding: 60px 10px 0 10px;
+  }
+
+  .love-image-background{
+    height: 650px;
+  }
+
+  .love-title {
+    font-size: 43px;
+    width: 90%;
+    top: 50px;
+  }
+
+  .love-container{
+    width: 90%;
+    top: 380px;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    padding: 16px 0 16px 17px;
+  }
+  .Saaya-image {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .Saaya-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 57% center;
+    display: block;
+  }
+
+  .Saaya-intro {
+    width: 60%;
+    top: 230px;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    }
+  
+  .Saaya-intro h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .Saaya-intro p {
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .about-container {
+    padding: 30px 20px 0 20px;
+    margin-top: -300px;
+  }
+
+  .about-label {
+    margin-top: 150px;
+    justify-content: center;
+  }
+
+  .about-label h2 {
+    color: transparent;
+    font-size: 52px;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .about-label h2::before {
+    content: "ABOUT ME";
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-label h2 br {
+    display: none;
+  }
+  
+  .about-text {
+    max-width: 100%;
+    padding: 15px 5px 0 5px;
+  }
+
+  .about-text h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+  
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .love-image-background {
+    height: 1150px;
+  }
+  
+  .love-title {
+    font-size: 28px;
+    width: 100%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.3;
+    padding: 0 10px;
+  }
+  
+  .love-container {
+    flex-direction: column;
+    width: 90%;
+    top: 100px;
+    transform: translateX(-50%);
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .love-item {
+    width: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 10px;
+  }
+  
+  .footer {
+    text-align: left;
+    font-size: 14px;
+  }
+}
